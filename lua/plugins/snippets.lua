@@ -6,7 +6,6 @@ return {
     end
     table.insert(opts.search_paths, vim.fn.stdpath("data") .. "/lazy/vscode-vitest-snippets")
     table.insert(opts.search_paths, vim.fn.stdpath("data") .. "/lazy/vscode-testing-library-snippets")
-    vim.print(_)
   end,
   dependencies = {
     "deinsoftware/vscode-vitest-snippets",
